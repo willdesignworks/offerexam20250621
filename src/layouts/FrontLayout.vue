@@ -17,6 +17,7 @@ const banner = ref({
   subtitle: ''
 })
 const sections = ref([])
+
 const getDate = async () => {
   try {
     const res = await axios.get('/data.json')
