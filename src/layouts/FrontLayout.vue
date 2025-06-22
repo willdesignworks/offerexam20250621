@@ -58,8 +58,4 @@ onMounted(() => {
       <component :is="Component" :banner="banner" :sections="sections" />
     </RouterView>
   </div>
-<<<<<<< HEAD
-
-=======
->>>>>>> c5900bd8145b21945d9048444f93e24bce0d6b83
 </template>
