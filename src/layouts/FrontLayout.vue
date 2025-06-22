@@ -7,8 +7,12 @@ import axios from 'axios';
 // 引入元件
 import Navbar from '@/components/Navbar.vue';
 
+<<<<<<< HEAD
 // 響應式資料容器
 const data = ref();
+=======
+// 狀態
+>>>>>>> c5900bd8145b21945d9048444f93e24bce0d6b83
 const nav = ref([])
 const siteTitle = ref('')
 const banner = ref({
@@ -17,7 +21,13 @@ const banner = ref({
   subtitle: ''
 })
 const sections = ref([])
+<<<<<<< HEAD
 
+=======
+const data = ref();
+
+// API
+>>>>>>> c5900bd8145b21945d9048444f93e24bce0d6b83
 const getDate = async () => {
   try {
     const res = await axios.get('/data.json')
@@ -48,5 +58,8 @@ onMounted(() => {
       <component :is="Component" :banner="banner" :sections="sections" />
     </RouterView>
   </div>
+<<<<<<< HEAD
 
+=======
+>>>>>>> c5900bd8145b21945d9048444f93e24bce0d6b83
 </template>

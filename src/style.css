@@ -110,8 +110,8 @@ body {
 .menu-list.active {
   color: #aa6666;
   text-decoration: underline;
-  text-underline-offset: 6px; /* 底線與文字距離 */
-  text-decoration-thickness: 2px; /* 底線粗細 */
+  text-underline-offset: 6px;
+  text-decoration-thickness: 2px;
 }
 .menu.open {
   display: flex;
@@ -315,9 +315,9 @@ align-items: stretch;
     text-align: right;
   }
   .banner h1 {
-    word-break: break-word;     /* 英文單字超出可中斷 */
-    overflow-wrap: break-word;  /* 補強新瀏覽器支援 */
-    white-space: normal;        /* 正常換行，不強制單行 */
+    word-break: break-word;
+    overflow-wrap: break-word; 
+    white-space: normal;
     width: 79%;
   }
   .content {
